@@ -1,4 +1,7 @@
+import os
+os.environ["KERAS_BACKEND"] = "jax"
 import streamlit as st
+
 import numpy as np
 import keras
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
