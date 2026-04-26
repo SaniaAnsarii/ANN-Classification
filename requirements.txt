@@ -1,4 +1,4 @@
-tensorflow-cpu>=2.15,<2.20
+keras
 pandas
 numpy
 scikit-learn
