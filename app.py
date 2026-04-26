@@ -1,7 +1,6 @@
 import os
 os.environ["KERAS_BACKEND"] = "jax"
 import streamlit as st
-
 import numpy as np
 import keras
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
@@ -23,7 +22,7 @@ with open('scaler.pkl', 'rb') as file:
 
 
 
-st.title('Customer Churn PRediction')
+st.title('Customer Churn Prediction')
 
 
 geography = st.selectbox('Geography', onehot_encoder_geo.categories_[0])
